@@ -7,7 +7,14 @@ public class App {
         for (int i=0; i<4; i++) {
             lista[i] = new corridore(nomi[i]);
             lista[i].start();
-        }        
+           
+        }    
+        for (int i=0; i<4; i++) {
+                  lista[i].join();;
+           
+        }    
+        
+        System.out.println("GARA FINITA");
 /*        
         corridore c1 = new corridore("Marco");
         corridore c2 = new corridore("Matteo");
